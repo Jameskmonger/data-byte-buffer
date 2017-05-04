@@ -1,0 +1,31 @@
+{
+  "name": "data-byte-buffer",
+  "version": "0.0.1",
+  "description": "Byte buffer allowing for multiple data types.",
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "npm run build && alsatian \"test/**/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jameskmonger/data-byte-buffer.git"
+  },
+  "keywords": [
+    "byte",
+    "buffer",
+    "data"
+  ],
+  "author": "James Monger <jameskmonger@hotmail.co.uk> (http://jamesmonger.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jameskmonger/data-byte-buffer/issues"
+  },
+  "homepage": "https://github.com/Jameskmonger/data-byte-buffer#readme",
+  "devDependencies": {
+    "alsatian": "^1.3.1",
+    "typescript": "^2.3.2"
+  }
+}
